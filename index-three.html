@@ -1,0 +1,939 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+	<title>Home Three— Restaurant &amp; Cafe site</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav/favicon-16x16.png">
+	
+
+	<meta name="msapplication-TileColor" content="#c59d5f">
+	<meta name="theme-color" content="#c59d5f">
+
+	<!-- Dependency Styles -->
+	<link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/fontawesome/css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/swiper/css/swiper.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/wow/css/animate.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/magnific-popup/css/magnific-popup.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/themify-icons/css/themify-icons.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/components-elegant-icons/css/elegant-icons.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/air-datepicker/css/datepicker.min.css" type="text/css">
+
+	<!-- Site Stylesheet -->
+	<link rel="stylesheet" href="assets/css/app.css" type="text/css">
+
+	<!-- Google Web Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700%7CGreat+Vibes&subset=greek" rel="stylesheet">
+
+
+</head>
+
+<body id="home-border" class="home-border" data-style="default">
+
+	<a href="#main_content" data-type="section-switch" class="return-to-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
+
+	<div class="page-loader">
+		<div class="loader">
+			<ul class="loader-cup">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="wineglass left">
+				<div class="top"></div>
+			</div>
+			<div class="wineglass right">
+				<div class="top"></div>
+			</div>
+		</div>
+	</div>
+	<!-- /.page-loader -->
+
+	<div id="main_content">
+
+
+		<!--=========================-->
+		<!--=        Navbar         =-->
+		<!--=========================-->
+		<header class="site-header gp-header-sticky top-30">
+			<div class="container">
+				<div class="header-inner">
+					<div class="site-logo">
+						<a href="index.html" class="logo">
+					<img src="assets/img/main-logo.png" alt="site logo" class="logo-main">
+					<img src="assets/img/sticky-logo.png" alt="site logo" class="logo-sticky">
+				</a>
+					</div>
+					<!-- /.site-logo -->
+
+					<div class="toggle-menu">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+
+					<nav class="site-nav">
+						<div class="close-menu">
+							<i class="ei ei-icon_close"></i>
+						</div>
+
+						<ul class="site-main-menu">
+							<li class="menu-item-has-children">
+								<a href="#">Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home One</a></li>
+									<li><a href="index-two.html">Home Two</a></li>
+									<li><a href="index-three.html">Home Three</a></li>
+
+								</ul>
+							</li>
+
+							<li><a href="about.html">About</a></li>
+							<li class="menu-item-has-children">
+								<a href="menu.html">Menu</a>
+								<ul class="sub-menu">
+									<li><a href="menu.html">Menu One</a></li>
+									<li><a href="menu-two.html">Menu Two</a></li>
+									<li><a href="menu-signle.html">Menu Single</a></li>
+
+								</ul>
+							</li>
+							<li><a href="reservation.html">Reservation</a></li>
+							<li class="menu-item-has-children">
+								<a href="news.html">News</a>
+								<ul class="sub-menu">
+									<li><a href="news.html">News</a></li>
+									<li><a href="news-single.html">News Single</a></li>
+
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Page</a>
+								<ul class="sub-menu">
+									<li><a href="staff.html">Staff</a></li>
+									<li><a href="gallery.html">Gallery</a></li>
+									<li><a href="404.html">404 Page</a></li>
+
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+
+						<div class="right-menu">
+							<span class="search-btn" id="search-icon">
+						<i class="ei ei-icon_search"></i>
+					</span>
+
+							<a href="#" class="nav-btn gp-btn">Reservations</a>
+						</div>
+						<!-- /.right-menu -->
+					</nav>
+					<!-- /.site-nav -->
+				</div>
+				<!-- /.heder-inner -->
+			</div>
+			<!-- /.container -->
+		</header>
+		<!-- /.site-header -->
+
+		<!--==========================-->
+		<!--=         Banner         =-->
+		<!--==========================-->
+		<header class="banner banner-two">
+			<div class="swiper-container banner-slider" data-swiper-config='{
+	"loop": true,
+	"speed": 700,
+	"autoplay": 4000,
+	"pagination":"#banner-swiper-pagination",
+	"slidesPerView": 1,
+	"nextButton":"#slide-next",
+	"prevButton":"#slide-prev",
+	"grabCursor": false,
+	"paginationClickable": true
+}'>
+
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" data-bg-image="media/banner/5.jpg">
+
+						<div class="container">
+							<div class="banner-content text-center">
+								<h3 class="sub-title" data-animate="fadeInDown">Welcome To Cafedia</h3>
+								<h2 class="banner-title" data-animate="fadeInDown" data-delay="0.3s">Cafedia paris Aalst</h2>
+
+								<div class="seaperator-line">
+									<span class="line line-left"></span>
+									<span class="star" data-animate="fadeIn"><svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						width="22px" height="20px">
+						<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+						d="M19.583,11.544 L19.570,11.572 L19.545,11.588 C19.517,11.605 16.718,13.384 14.335,12.085 C14.329,12.082 14.021,11.911 13.614,11.660 C15.151,12.918 17.057,14.822 16.937,16.450 L16.937,18.824 L16.937,19.013 L16.783,18.906 C16.771,18.897 15.516,18.029 14.763,17.934 L14.741,17.931 L14.722,17.919 C14.692,17.899 11.940,16.054 10.904,13.479 C10.812,15.838 10.382,18.574 8.926,19.307 C8.856,19.345 7.207,20.215 6.388,19.906 L6.310,19.877 L6.326,19.794 C6.329,19.780 6.611,18.324 6.233,17.275 L6.220,17.242 L6.232,17.209 C6.242,17.180 7.197,14.478 8.239,12.334 C6.196,13.830 5.863,14.219 5.827,14.311 L5.823,14.317 L5.820,14.323 C5.810,14.341 5.580,14.730 4.921,14.883 C4.134,15.065 2.655,14.917 0.079,13.169 L0.001,13.117 L0.051,13.036 C0.160,12.855 2.771,8.633 5.740,9.032 C5.750,9.032 6.557,9.076 7.486,9.200 C3.755,7.128 3.963,2.546 3.966,2.497 L3.969,2.455 L4.002,2.427 C4.557,1.962 4.849,0.229 4.852,0.212 L4.886,0.006 L5.023,0.163 C5.685,0.925 6.741,1.319 6.752,1.322 L6.738,1.319 C9.490,1.904 10.545,4.205 10.942,6.184 C11.288,4.869 12.036,3.931 13.161,3.502 C13.776,3.206 15.388,2.287 15.464,1.603 L15.655,1.583 C15.724,1.796 17.217,6.572 15.341,8.328 C17.627,7.824 19.216,7.964 20.051,8.762 L20.043,8.755 C20.055,8.766 21.283,9.706 21.910,9.436 L21.998,9.611 C21.977,9.624 19.861,10.889 19.583,11.544 ZM12.278,10.177 C12.264,10.129 12.238,10.084 12.215,10.038 C12.202,10.010 12.194,9.980 12.177,9.953 C12.150,9.910 12.112,9.870 12.077,9.830 C12.056,9.804 12.040,9.777 12.016,9.754 C11.985,9.724 11.946,9.700 11.911,9.674 C11.874,9.645 11.840,9.613 11.798,9.588 C11.695,9.526 11.583,9.478 11.465,9.447 C11.348,9.415 11.224,9.398 11.099,9.397 L11.068,9.398 C10.951,9.400 10.839,9.415 10.732,9.443 C10.671,9.459 10.618,9.486 10.562,9.509 C10.518,9.527 10.471,9.539 10.430,9.561 C10.377,9.589 10.334,9.629 10.287,9.664 C10.251,9.691 10.210,9.712 10.178,9.743 C10.143,9.776 10.119,9.818 10.090,9.856 C10.056,9.898 10.017,9.936 9.990,9.983 C9.909,10.123 9.868,10.269 9.868,10.416 C9.868,10.593 9.925,10.765 10.038,10.926 L10.039,10.926 C10.183,11.135 10.418,11.275 10.681,11.356 C10.734,11.372 10.779,11.404 10.835,11.414 C10.925,11.429 11.009,11.436 11.091,11.436 C11.602,11.436 12.062,11.164 12.236,10.757 L12.237,10.755 C12.255,10.715 12.267,10.683 12.275,10.651 C12.300,10.563 12.313,10.488 12.313,10.416 C12.313,10.335 12.301,10.254 12.278,10.177 Z"/>
+					</svg></span>
+									<span class="line line-right"></span>
+								</div>
+
+								<p data-animate="fadeInUp" data-delay="0.7s">
+									Ready To Be Opened
+								</p>
+								<a href="#" class="gp-btn btn-light" data-animate="fadeInUp" data-delay="0.9s">
+					Explore
+				</a>
+							</div>
+							<!-- /.banner-content -->
+						</div>
+						<!-- /.container -->
+					</div>
+					<!-- /.swiper-slide -->
+
+					<div class="swiper-slide" data-bg-image="media/banner/6.jpg">
+						<div class="container">
+							<div class="banner-content text-center">
+								<h3 class="sub-title" data-animate="fadeInUp">Welcome To Cafedia</h3>
+								<h2 class="banner-title" data-animate="fadeInUp" data-delay="0.3s">Cafedia paris Aalst</h2>
+
+								<div class="seaperator-line">
+									<span class="line line-left"></span>
+									<span class="star" data-animate="fadeIn"><svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						width="22px" height="20px">
+						<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+						d="M19.583,11.544 L19.570,11.572 L19.545,11.588 C19.517,11.605 16.718,13.384 14.335,12.085 C14.329,12.082 14.021,11.911 13.614,11.660 C15.151,12.918 17.057,14.822 16.937,16.450 L16.937,18.824 L16.937,19.013 L16.783,18.906 C16.771,18.897 15.516,18.029 14.763,17.934 L14.741,17.931 L14.722,17.919 C14.692,17.899 11.940,16.054 10.904,13.479 C10.812,15.838 10.382,18.574 8.926,19.307 C8.856,19.345 7.207,20.215 6.388,19.906 L6.310,19.877 L6.326,19.794 C6.329,19.780 6.611,18.324 6.233,17.275 L6.220,17.242 L6.232,17.209 C6.242,17.180 7.197,14.478 8.239,12.334 C6.196,13.830 5.863,14.219 5.827,14.311 L5.823,14.317 L5.820,14.323 C5.810,14.341 5.580,14.730 4.921,14.883 C4.134,15.065 2.655,14.917 0.079,13.169 L0.001,13.117 L0.051,13.036 C0.160,12.855 2.771,8.633 5.740,9.032 C5.750,9.032 6.557,9.076 7.486,9.200 C3.755,7.128 3.963,2.546 3.966,2.497 L3.969,2.455 L4.002,2.427 C4.557,1.962 4.849,0.229 4.852,0.212 L4.886,0.006 L5.023,0.163 C5.685,0.925 6.741,1.319 6.752,1.322 L6.738,1.319 C9.490,1.904 10.545,4.205 10.942,6.184 C11.288,4.869 12.036,3.931 13.161,3.502 C13.776,3.206 15.388,2.287 15.464,1.603 L15.655,1.583 C15.724,1.796 17.217,6.572 15.341,8.328 C17.627,7.824 19.216,7.964 20.051,8.762 L20.043,8.755 C20.055,8.766 21.283,9.706 21.910,9.436 L21.998,9.611 C21.977,9.624 19.861,10.889 19.583,11.544 ZM12.278,10.177 C12.264,10.129 12.238,10.084 12.215,10.038 C12.202,10.010 12.194,9.980 12.177,9.953 C12.150,9.910 12.112,9.870 12.077,9.830 C12.056,9.804 12.040,9.777 12.016,9.754 C11.985,9.724 11.946,9.700 11.911,9.674 C11.874,9.645 11.840,9.613 11.798,9.588 C11.695,9.526 11.583,9.478 11.465,9.447 C11.348,9.415 11.224,9.398 11.099,9.397 L11.068,9.398 C10.951,9.400 10.839,9.415 10.732,9.443 C10.671,9.459 10.618,9.486 10.562,9.509 C10.518,9.527 10.471,9.539 10.430,9.561 C10.377,9.589 10.334,9.629 10.287,9.664 C10.251,9.691 10.210,9.712 10.178,9.743 C10.143,9.776 10.119,9.818 10.090,9.856 C10.056,9.898 10.017,9.936 9.990,9.983 C9.909,10.123 9.868,10.269 9.868,10.416 C9.868,10.593 9.925,10.765 10.038,10.926 L10.039,10.926 C10.183,11.135 10.418,11.275 10.681,11.356 C10.734,11.372 10.779,11.404 10.835,11.414 C10.925,11.429 11.009,11.436 11.091,11.436 C11.602,11.436 12.062,11.164 12.236,10.757 L12.237,10.755 C12.255,10.715 12.267,10.683 12.275,10.651 C12.300,10.563 12.313,10.488 12.313,10.416 C12.313,10.335 12.301,10.254 12.278,10.177 Z"/>
+					</svg></span>
+									<span class="line line-right"></span>
+								</div>
+
+								<p data-animate="fadeInUp" data-delay="0.5s">
+									Ready To Be Opened
+								</p>
+								<a href="#" class="gp-btn btn-light" data-animate="fadeInUp" data-delay="0.5s">
+					Explore
+				</a>
+							</div>
+							<!-- /.banner-content -->
+						</div>
+						<!-- /.container -->
+					</div>
+					<!-- /.swiper-slide -->
+
+					<div class="swiper-slide" data-bg-image="media/banner/3.jpg">
+						<div class="container">
+							<div class="banner-content text-center">
+								<h3 class="sub-title" data-animate="fadeInUp">Welcome To Cafedia</h3>
+								<h2 class="banner-title" data-animate="fadeInUp" data-delay="0.3s">Cafedia paris Aalst</h2>
+
+								<div class="seaperator-line">
+									<span class="line line-left"></span>
+									<span class="star" data-animate="fadeIn"><svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						width="22px" height="20px">
+						<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+						d="M19.583,11.544 L19.570,11.572 L19.545,11.588 C19.517,11.605 16.718,13.384 14.335,12.085 C14.329,12.082 14.021,11.911 13.614,11.660 C15.151,12.918 17.057,14.822 16.937,16.450 L16.937,18.824 L16.937,19.013 L16.783,18.906 C16.771,18.897 15.516,18.029 14.763,17.934 L14.741,17.931 L14.722,17.919 C14.692,17.899 11.940,16.054 10.904,13.479 C10.812,15.838 10.382,18.574 8.926,19.307 C8.856,19.345 7.207,20.215 6.388,19.906 L6.310,19.877 L6.326,19.794 C6.329,19.780 6.611,18.324 6.233,17.275 L6.220,17.242 L6.232,17.209 C6.242,17.180 7.197,14.478 8.239,12.334 C6.196,13.830 5.863,14.219 5.827,14.311 L5.823,14.317 L5.820,14.323 C5.810,14.341 5.580,14.730 4.921,14.883 C4.134,15.065 2.655,14.917 0.079,13.169 L0.001,13.117 L0.051,13.036 C0.160,12.855 2.771,8.633 5.740,9.032 C5.750,9.032 6.557,9.076 7.486,9.200 C3.755,7.128 3.963,2.546 3.966,2.497 L3.969,2.455 L4.002,2.427 C4.557,1.962 4.849,0.229 4.852,0.212 L4.886,0.006 L5.023,0.163 C5.685,0.925 6.741,1.319 6.752,1.322 L6.738,1.319 C9.490,1.904 10.545,4.205 10.942,6.184 C11.288,4.869 12.036,3.931 13.161,3.502 C13.776,3.206 15.388,2.287 15.464,1.603 L15.655,1.583 C15.724,1.796 17.217,6.572 15.341,8.328 C17.627,7.824 19.216,7.964 20.051,8.762 L20.043,8.755 C20.055,8.766 21.283,9.706 21.910,9.436 L21.998,9.611 C21.977,9.624 19.861,10.889 19.583,11.544 ZM12.278,10.177 C12.264,10.129 12.238,10.084 12.215,10.038 C12.202,10.010 12.194,9.980 12.177,9.953 C12.150,9.910 12.112,9.870 12.077,9.830 C12.056,9.804 12.040,9.777 12.016,9.754 C11.985,9.724 11.946,9.700 11.911,9.674 C11.874,9.645 11.840,9.613 11.798,9.588 C11.695,9.526 11.583,9.478 11.465,9.447 C11.348,9.415 11.224,9.398 11.099,9.397 L11.068,9.398 C10.951,9.400 10.839,9.415 10.732,9.443 C10.671,9.459 10.618,9.486 10.562,9.509 C10.518,9.527 10.471,9.539 10.430,9.561 C10.377,9.589 10.334,9.629 10.287,9.664 C10.251,9.691 10.210,9.712 10.178,9.743 C10.143,9.776 10.119,9.818 10.090,9.856 C10.056,9.898 10.017,9.936 9.990,9.983 C9.909,10.123 9.868,10.269 9.868,10.416 C9.868,10.593 9.925,10.765 10.038,10.926 L10.039,10.926 C10.183,11.135 10.418,11.275 10.681,11.356 C10.734,11.372 10.779,11.404 10.835,11.414 C10.925,11.429 11.009,11.436 11.091,11.436 C11.602,11.436 12.062,11.164 12.236,10.757 L12.237,10.755 C12.255,10.715 12.267,10.683 12.275,10.651 C12.300,10.563 12.313,10.488 12.313,10.416 C12.313,10.335 12.301,10.254 12.278,10.177 Z"/>
+					</svg></span>
+									<span class="line line-right"></span>
+								</div>
+
+								<p data-animate="fadeInDown" data-delay="0.5s">
+									Ready To Be Opened
+								</p>
+								<a href="#" class="gp-btn btn-light" data-animate="fadeInDown" data-delay="0.5s">
+					Explore
+				</a>
+							</div>
+							<!-- /.banner-content -->
+						</div>
+						<!-- /.container -->
+					</div>
+					<!-- /.swiper-slide -->
+
+				</div>
+				<!-- /.swiper-wrapper -->
+
+
+				<div class="swiper-pagination" id="banner-swiper-pagination"></div>
+
+			</div>
+			<!-- /.swiper-container -->
+		</header>
+		<!-- /.banner -->
+
+		<!--=========================-->
+		<!--=         About         =-->
+		<!--=========================-->
+		<section id="about-three" class="section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="about-three-thumb">
+							<div class="img-one" data-parallax='{"x" : -80}'>
+								<img src="media/about/1.png" alt="about">
+							</div>
+
+							<div class="img-two">
+								<img src="media/about/2.png" alt="about">
+							</div>
+						</div>
+						<!-- /.about-three-thumb -->
+					</div>
+					<!-- /.col-lg-6 -->
+
+					<div class="col-lg-6">
+						<div class="about-content-three">
+							<div class="section-title text-left">
+								<h3 class="sub-title wow fadeInUp">Our Story</h3>
+								<h2 class="title wow fadeInUp" data-wow-delay="0.3s">
+									Good <span>Design</span><br> Best <span>Restaurant</span>
+								</h2>
+
+								<h4 class="wow fadeInUp" data-wow-delay="0.5s">
+									We know that good design means <br> best restaurant
+								</h4>
+
+								<p class="wow fadeInUp" data-wow-delay="0.7s">
+									We would like to take this opportunity to welcome you to our <br> restaurant. We guarantee you the freshest food, delivered daily to<br> our dock, prepared to your liking.!
+								</p>
+
+								<a href="#" class="gp-btn wow fadeInUp" data-wow-delay="0.9s">Read More</a>
+							</div>
+							<!-- /.section-title -->
+						</div>
+						<!-- /.about-content-three -->
+					</div>
+					<!-- /.col-lg-6 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /#about-three -->
+
+		<!--========================-->
+		<!--=         Food         =-->
+		<!--========================-->
+		<section class="food-area section-bg">
+			<div class="container">
+				<div class="section-title text-center">
+					<h3 class="sub-title wow fadeInUp">Our Specials Menu</h3>
+					<h2 class="title wow fadeInUp" data-wow-delay="0.3s">Good food starts with <br>good ingridients</h2>
+				</div>
+				<!-- /.section-title -->
+
+				<div class="food-wrapper">
+					<div class="swiper-container food-slider wow fadeInUp" data-swiper-config='{
+				"loop": true,
+				"speed": 700,
+				"spaceBetween": 30,
+				"autoplay": 5000,
+				"pagination":"#food-pagination",
+				"slidesPerView": 3,
+				"paginationClickable": true,
+				"breakpoints": { "1024": { "slidesPerView": 2 }, "768": { "slidesPerView": 1 }, "400": { "slidesPerView": 1 }}}'>
+
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide">
+								<div class="food-box">
+									<div class="food-feature-image">
+										<a href="#">
+									<img src="media/food/9.jpg" alt="food">
+								</a>
+									</div>
+									<!-- /.food-feature-image -->
+
+									<div class="info">
+										<h3>
+											<a href="#">
+										Fresh Toot Fruits
+									</a>
+										</h3>
+
+										<span class="price">$22.00</span>
+									</div>
+								</div>
+								<!-- /.food-box -->
+							</div>
+
+							<div class="swiper-slide">
+								<div class="food-box">
+									<div class="food-feature-image">
+										<a href="#">
+									<img src="media/food/10.jpg" alt="food">
+								</a>
+									</div>
+									<!-- /.food-feature-image -->
+
+									<div class="info">
+										<h3>
+											<a href="#">
+										Fresh Toot Fruits
+									</a>
+										</h3>
+
+										<span class="price">$22.00</span>
+									</div>
+								</div>
+								<!-- /.food-box -->
+							</div>
+
+							<div class="swiper-slide">
+								<div class="food-box">
+									<div class="food-feature-image">
+										<a href="#">
+									<img src="media/food/11.jpg" alt="food">
+								</a>
+									</div>
+									<!-- /.food-feature-image -->
+
+									<div class="info">
+										<h3>
+											<a href="#">
+										Fresh Toot Fruits
+									</a>
+										</h3>
+
+										<span class="price">$22.00</span>
+									</div>
+								</div>
+								<!-- /.food-box -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="slider-pagi-inner pg-dark">
+					<div class="swiper-pagination" id="food-pagination"></div>
+				</div>
+				<!-- /.slider-pagi-inner -->
+
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.pricing-area -->
+
+		<!--========================-->
+		<!--=         Food Filter        =-->
+		<!--========================-->
+		<section class="menu-filters section-padding">
+			<div class="container">
+
+				<div class="section-title text-center">
+					<h3 class="sub-title wow fadeInUp">Discover Menu</h3>
+					<h2 class="title wow fadeInUp" data-wow-delay="0.3s">
+						Choose your dish from menu
+					</h2>
+				</div>
+				<!-- /.section-title -->
+
+				<ul class="menu-filter wow fadeInUp" data-wow-delay="0.4s">
+					<li class="current" data-rel="all">See All</li>
+					<li data-rel="antipasti">Antipasti</li>
+					<li data-rel="insalatone">Insalatone</li>
+					<li data-rel="pasta">Pasta</li>
+					<li data-rel="cocktails">Cocktails</li>
+					<li data-rel="pizza">Pizza</li>
+					<li data-rel="dolci">Dolci</li>
+					<li data-rel="wine">Wine</li>
+				</ul>
+
+
+
+				<div id="filter-content" class="row wow fadeInUp" data-wow-delay="0.5s">
+
+					<div class="col-md-6 item tile dolci cocktails all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/13.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Vitello Tonato</a></h3>
+
+								<span class="price">$23.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+
+					</div>
+					<div class="col-md-6 item tile antipasti pizza all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/14.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Crema di Pomodoro </a></h3>
+
+								<span class="price">$24.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+					</div>
+					<div class="col-md-6 item tile pasta insalatone wine all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/15.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Seasonal Soup</a></h3>
+
+								<span class="price">$18.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+					</div>
+					<div class="col-md-6 item tile antipasti dolci wine all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/16.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Oatmeal Cookie</a></h3>
+
+								<span class="price">$23.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+					</div>
+					<div class="col-md-6 item tile insalatone cocktails pizza all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/17.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Pizza Pane</a></h3>
+
+								<span class="price">$26.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+					</div>
+					<div class="col-md-6 item tile pasta dolci cocktails all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/18.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Carpacio</a></h3>
+
+								<span class="price">$28.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+					</div>
+					<div class="col-md-6 item tile cocktails insalatone wine all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/19.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Insalata Rucola</a></h3>
+
+								<span class="price">$22.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+					</div>
+					<div class="col-md-6 item tile pasta antipasti dolci all">
+						<div class="food-items">
+							<div class="food-img">
+								<img src="media/food/20.jpg" alt="food">
+							</div>
+
+							<div class="content">
+								<h3 class="title"><a href="menu-signle.html">Anti Pasti Mixed</a></h3>
+
+								<span class="price">$16.00</span>
+
+								<p>
+									Mushrooms, Ruccola, Pomodoro, Mozzarella, Olives
+								</p>
+							</div>
+						</div>
+						<!-- /.food-items -->
+					</div>
+
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.menu-filters -->
+
+		<!--==================================-->
+		<!--=         Call To Action         =-->
+		<!--==================================-->
+		<section class="call-to-action jarallax">
+
+			<img src="media/background/call-to-bg.jpg" alt="" class="jarallax-img">
+
+			<div class="container">
+				<div class="call-to-action-wrapper wow fadeInUp">
+					<div class="content-left">
+						<h2>
+							Are you looking for a <br> quite place?
+						</h2>
+
+						<h4>
+							Make You Feel Good is Our Priority.
+						</h4>
+					</div>
+					<!-- /.content-left -->
+
+					<div class="action-btn-inner">
+						<a href="#" class="gp-btn btn-light">Book a table</a>
+					</div>
+					<!-- /.action-btn-inner -->
+				</div>
+				<!-- /.call-to-action-wrapper -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.call-to-acteon -->
+
+		<!--========================-->
+		<!--=         Team         =-->
+		<!--========================-->
+		<section class="team-area section-padding">
+			<div class="container">
+				<div class="section-title text-center">
+					<h3 class="sub-title wow fadeInUp">Our Team</h3>
+					<h2 class="title wow fadeInUp" data-wow-delay="0.3s">
+						Meet our very best:<br> the most recognized chefs
+					</h2>
+				</div>
+				<!-- /.section-title -->
+
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="team-member style-two wow fadeInRight" data-wow-delay="0.5s">
+							<div class="member-image">
+								<img src="media/team/1.jpg" alt="team-member style-two">
+
+								<div class="member-cont">
+									<ul class="member-link">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+									</ul>
+
+									<span class="separator"></span>
+									<p>Tel: +946 256 986 426</p>
+								</div>
+							</div>
+
+							<div class="member-bio">
+								<h4 class="name">Lurch Schpellchek</h4>
+								<span class="job">Sous Chef</span>
+
+							</div>
+						</div>
+						<!-- /.team-member style-two -->
+					</div>
+					<!-- /.col-lg-4 col-md-6 -->
+
+					<div class="col-lg-4 col-md-6">
+						<div class="team-member style-two wow fadeInRight" data-wow-delay="0.6s">
+							<div class="member-image">
+								<img src="media/team/2.jpg" alt="team-member style-two">
+
+								<div class="member-cont">
+									<ul class="member-link">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+									</ul>
+
+									<span class="separator"></span>
+									<p>Tel: +946 256 986 426</p>
+								</div>
+							</div>
+
+							<div class="member-bio">
+								<h4 class="name">Valentino Morose</h4>
+								<span class="job">Master Chef</span>
+
+							</div>
+						</div>
+						<!-- /.team-member style-two -->
+					</div>
+					<!-- /.col-lg-4 col-md-6 -->
+
+					<div class="col-lg-4 col-md-6">
+						<div class="team-member style-two wow fadeInRight" data-wow-delay="0.7s">
+							<div class="member-image">
+								<img src="media/team/3.jpg" alt="team-member style-two">
+
+								<div class="member-cont">
+									<ul class="member-link">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+									</ul>
+
+									<span class="separator"></span>
+									<p>Tel: +946 256 986 426</p>
+								</div>
+							</div>
+
+							<div class="member-bio">
+								<h4 class="name">Druid Wensleydale</h4>
+								<span class="job">CEO & Founder</span>
+
+							</div>
+						</div>
+						<!-- /.team-member style-two -->
+					</div>
+					<!-- /.col-lg-4 col-md-6 -->
+				</div>
+				<!-- /.row -->
+
+				<div class="btn-container text-center wow fadeInUp" data-wow-delay="0.3s">
+					<a href="staff.html" class="gp-btn">View All Team</a>
+				</div>
+				<!-- /.btn-container -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.team-area -->
+
+		<!--===========================-->
+		<!--=         Contact         =-->
+		<!--===========================-->
+		<section id="contact-two">
+
+			<div class="container">
+
+				<div class="section-title text-center">
+					<h3 class="sub-title wow fadeInUp">Tasty and Crunchy</h3>
+					<h2 class="title wow fadeInUp" data-wow-delay="0.3s">Reservations</h2>
+				</div>
+				<!-- /.section-title -->
+
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="google-map map-border fadeIn">
+							<div class="gmap3-area" data-lat="40.712776" data-lng="-74.005974">
+
+							</div>
+						</div>
+						<!-- /.google-map -->
+					</div>
+					<!-- /.col-lg-5 -->
+
+					<div class="col-lg-7">
+						<div class="contact-form-inner wow fadeIn" data-wow-delay="0.4s">
+							<form action="php/mailer.php" class="contact-form style-form" data-sofinform="contact">
+								<div class="row">
+									<div class="col-md-6">
+										<input type="text" name="fname" placeholder="Name" required>
+									</div>
+									<!-- /.col-md-6 -->
+
+									<div class="col-md-6">
+										<input type="text" name="phone" placeholder="Phone" required>
+									</div>
+									<!-- /.col-md-6 -->
+
+									<div class="col-md-6">
+										<input type="text" name="date" id="datepicker" autocomplete="off" placeholder="MM/DD/YY" required>
+									</div>
+									<!-- /.col-md-6 -->
+
+									<div class="col-md-6">
+										<input type="text" name="time" placeholder="Time" required>
+									</div>
+									<!-- /.col-md-6 -->
+
+									<div class="col-md-6">
+										<input type="text" name="seat" placeholder="Seat" required>
+									</div>
+									<!-- /.col-md-6 -->
+
+									<div class="col-md-6">
+										<input type="text" name="email" placeholder="Email" required>
+									</div>
+									<!-- /.col-md-6 -->
+
+								</div>
+								<!-- /.row -->
+
+
+								<textarea placeholder="Notes" name="content" required></textarea>
+
+								<button type="submit" class="submit-btn gp-btn">Submit Now</button>
+
+								<div class="form-result alert">
+									<div class="content"></div>
+								</div>
+								<!-- /.form-result-->
+
+							</form>
+							<!-- /.contact-form -->
+						</div>
+						<!-- /.contact-form-inner -->
+					</div>
+					<!-- /.col-lg-7 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.contact-form-inner -->
+		</section>
+		<!-- /#contact -->
+
+		<!--=========================-->
+		<!--=        Footer         =-->
+		<!--=========================-->
+		<footer id="footer-two" class="footer-dark">
+			<div class="footer-top">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="footer-menu">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Menu</a></li>
+							</ul>
+						</div>
+						<!-- /.col-md-6 -->
+
+						<div class="col-md-6">
+
+							<ul class="footer-menu text-right">
+								<li><a href="#">Reservation </a></li>
+								<li><a href="#">News</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<!-- /.col-md-6 -->
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+			</div>
+			<!-- /.footer-top -->
+
+			<div class="site-info-two" data-bg-image="media/background/foo-dark.jpg">
+				<div class="container">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5">
+							<p class="copy-right">© 2019 All Rights Reserved. Design by <a href="http://www.17sucai.com/" title="17sucai">PixelSigns</a></p>
+						</div>
+						<!-- /.col-md-5 -->
+
+						<div class="col-md-2">
+							<a href="index.html" class="footer-logo">
+						<img src="assets/img/main-logo.png" alt="logo">
+					</a>
+
+						</div>
+						<!-- /.col-md-2 -->
+
+						<div class="col-md-5">
+							<div class="follow-us d-flex justify-content-end">
+								<span>Follow Us:</span>
+								<ul class="footer-social-link">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								</ul>
+							</div>
+							<!-- /.follow-us -->
+
+						</div>
+						<!-- /.col-md-6 -->
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.sontainer -->
+			</div>
+			<!-- /.site-info -->
+		</footer>
+		<!-- /#footer -->
+
+
+
+		<div id="search-menu-wrapper">
+			<span class="close-search"><i class="ei ei-icon_close"></i></span>
+			<div class="wrapper">
+				<form id="search-form" action="#">
+					<input id="popup-search" type="text" name="s" placeholder="Search" />
+					<button id="popup-search-button" type="submit" name="search"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- /#site -->
+
+	<!-- Dependency Scripts -->
+	<script src="dependencies/popper.js/popper.min.js"></script>
+	<script src="dependencies/jquery/jquery.min.js"></script>
+	<script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+	<script src="dependencies/swiper/js/swiper.jquery.min.js"></script>
+	<script src="dependencies/swiperRunner/js/swiperRunner.min.js"></script>
+	<script src="dependencies/jquery.appear/jquery.appear.js"></script>
+	<script src="dependencies/air-datepicker/js/datepicker.min.js"></script>
+	<script src="dependencies/air-datepicker/js/datepicker.en.js"></script>
+	<script src="dependencies/gmap3/js/gmap3.min.js"></script>
+	<script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+	<script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="dependencies/jquery.parallax-scroll/jquery.parallax-scroll.js"></script>
+	<script src="dependencies/wow/js/wow.min.js"></script>
+	<script src="assets/js/jarallax.min.js"></script>
+	<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyB13ZAvCezMx5TETYIiGlzVIq65Mc2FG5g"></script>
+
+	<!-- Site Scripts -->
+	<!-- <script src="assets/js/smooth-scroll.js"></script> -->
+	<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
